@@ -4,6 +4,8 @@
         "vector": "cpp",
         "xutility": "cpp",
         "bitset": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "algorithm": "cpp",
+        "ostream": "cpp"
     }
 }
