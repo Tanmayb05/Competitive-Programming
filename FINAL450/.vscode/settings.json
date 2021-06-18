@@ -6,6 +6,7 @@
         "bitset": "cpp",
         "fstream": "cpp",
         "algorithm": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "xstring": "cpp"
     }
 }
