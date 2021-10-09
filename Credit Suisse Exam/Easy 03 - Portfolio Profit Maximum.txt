@@ -1,0 +1,21 @@
+def portfolio_profit_maximisation(maxSum, a, b):
+    # Write your code here
+    if (1<=n<=10**5) and (1<=m<=10**5) and (1<=maxSum<=10**9):
+        
+        sum = 0;    count=0;    i=0;        j=0
+        while (sum <= maxSum):
+            if i<n and j<m:
+                if a[i]<b[j]:
+                    sum = sum + a[i];   i+=1
+                else:
+                    sum = sum + b[j];   j+=1
+            elif i>=n and j<m:
+                sum = sum + b[j];   j+=1
+            elif i<n and j>=m:
+                sum = sum + a[i];   i+=1
+            else:
+                return count
+            count+=1
+        return count-1
+    else:
+        return 0
